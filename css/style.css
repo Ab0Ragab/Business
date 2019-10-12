@@ -1,0 +1,206 @@
+/*start startsec*/
+.start span
+{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+}
+.start span,
+.a .fa:hover
+{
+    cursor: pointer;
+}
+.start .a
+{
+    text-align: right
+}
+.a .fa
+{
+    color: blueviolet;
+}
+/*end startsec*/
+
+/*start our navbar*/
+.navbar
+{
+    border-radius: 0;
+}
+.navbar-brand
+{
+    background-color: black;
+    color: white;
+}
+.navbar-inverse .navbar-nav > .active > a
+{
+    background-color: blueviolet;
+}
+/*end our navbar*/
+/*start header*/
+.header
+{
+    background: url(../imgs/head.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 490px;
+    margin-top: -20px;
+    position: relative;
+}
+.header .overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.7);
+}
+.header h1
+{
+    margin-top: 190px;
+    color: blueviolet;
+}
+/*end header*/
+
+/*start services*/
+.sevices
+{
+    background-color: blueviolet;
+    color: white;
+    margin-top: -45px;
+}
+.sevices .icon
+{
+    margin-top: 20px;
+}
+.sevices p
+{
+    margin-bottom: 15px;
+}
+.sevices h1
+{
+    margin-bottom: 20px;
+}
+.addhigh1, .addhigh3, .addhigh5
+{
+    float: right;
+}
+.ab
+{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-bottom: 45px;
+}
+/*end services*/
+
+/*start knowmore*/
+.knowmore
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+   
+}
+.knowmore p
+{
+    margin-bottom: 25px;
+}
+.knowmore .row
+{
+     border-bottom: 3px solid blueviolet;
+}
+.knowmore .fa
+{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*end knowmore*/
+
+/*start help*/
+.help .btn
+{
+    margin-bottom: 20px;
+}
+.help
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.help .pStyle
+{
+    line-height: 35.5px;
+}
+.help img
+{
+    margin-bottom: 20px;
+}
+.help .fa
+{
+    color: blueviolet;
+}
+.help .helpus
+{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.help #carousel
+{
+    background-color:bisque;
+    padding: 10px;
+}
+************************* start carousel ***********************/
+.carousel-inner > .item > img {}
+.carousel-indicators { position: absolute; top:170px;}
+.carousel-indicators li { width: 12px; height: 12px; background-color: black;}
+.carousel-indicators .active { width: 14px; height: 14px; background-color: blueviolet;}
+
+/*end help*/
+
+/*start footer*/
+.footer
+{
+    margin-top: 40px;
+    background-color: blueviolet;
+    padding: 30px;
+    color: black;
+}
+.footer .fa
+{
+    color: white;
+    margin-bottom: 10px;
+}
+.footer .fa:hover
+{
+    cursor: pointer;
+}
+
+.fa-facebook:hover{color: mediumblue; transform: scale(1.3,1.3);}
+.fa-twitter:hover{color: #1da1f2; transform: scale(1.3,1.3);}
+.fa-phone:hover{color: red; transform: scale(1.3,1.3);}
+.fa-location-arrow:hover{color: green; transform: scale(1.3,1.3);}
+.fa-mobile:hover{color: burlywood; transform: scale(1.3,1.3);}
+.fa-envelope:hover{color: seagreen; transform: scale(1.3,1.3);}
+/*end footer*/
+/*------------------------- start scroll section ----------------------*/
+#scroll-up
+{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+    right: 15px;
+    bottom: 10px;
+    display: none;
+    border-radius: 5px;
+}
+#scroll-up:hover{cursor: pointer;}
+/*------------------------- end scroll section ----------------------*/
